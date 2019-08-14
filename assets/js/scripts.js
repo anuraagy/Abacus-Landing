@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  var scroll = new SmoothScroll('.nav-link');
+  var scroll = new SmoothScroll('a[href*="#"]');
 
   let counter = 1;
 
