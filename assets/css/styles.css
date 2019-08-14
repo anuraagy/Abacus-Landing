@@ -22,8 +22,11 @@ h1, h2, h3, h4, h5 {
 
 .navbar {
   background-color: transparent !important;
-  padding-left: 35px;
-  padding-right: 35px;
+/*  padding-left: 35px;
+  padding-right: 35px;*/
+  padding-right: 0px;
+  padding-left: 0px;
+
   padding-top: 15px;
 }
 
@@ -41,6 +44,7 @@ h1, h2, h3, h4, h5 {
 /* Header */
 .header {
   position: relative;
+  margin-bottom: 400px;
 }
 
 .header .title {
@@ -62,7 +66,7 @@ h1, h2, h3, h4, h5 {
   position: absolute;
   width: 250px;
   bottom: -100px;
-  right: 200px;
+  right: 38px;
 }
 
 .btn.btn-primary {
@@ -89,4 +93,126 @@ h1, h2, h3, h4, h5 {
 
 .header-btn {
   margin-right: 15px;
+}
+
+/* Section */
+
+.section {
+  height: 500px;
+}
+
+.section .content {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.section .title {
+  font-size: 3rem;
+}
+
+.section .subtitle {
+  font-size: 1rem;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 90%;
+}
+
+/* Paid Acqutisition */
+#school-img {
+  position: absolute;
+  width: 400px;
+  right: 50px;
+  top: -80px;
+}
+
+#bball-img {
+  position: absolute;
+  z-index: 1;
+  width: 250px;
+  right: 0px;
+  bottom: -30px;
+}
+
+#left-img-bottom {
+  position: absolute;
+  width: 400px;
+  left: 50px;
+  top: -80px;
+}
+
+#left-img-top {
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  left: 0px;
+  bottom: -30px;
+}
+
+.special-section {
+  background-color: #040417;
+  color: white;
+  padding-top: 100px;
+}
+
+.subtitle.right {
+  width: 90%;
+}
+
+.testimonial-title {
+  text-align: justify;
+  font-size: 2.3rem;
+}
+
+.testimonial-author {
+  float: right;
+}
+
+.testimonial {
+  margin-bottom: 150px;
+}
+
+.special-section .title {
+  font-size: 2.3rem;
+  margin-bottom: 500px;
+}
+
+/* Bottom */
+.bottom {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.bottom .title {
+  font-size: 3.4rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.bottom .subtitle {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.bottom .content {
+  margin-top: 120px;
+}
+
+.bottom-img {
+  position: absolute;
+  width: 250px;
+  bottom: -100px;
+  right: 38px;
+}
+
+/* Footer */
+.footer {
+  padding-top: 25px;
+  padding-bottom: 100px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.email {
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
