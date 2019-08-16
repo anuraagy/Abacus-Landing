@@ -69,28 +69,6 @@ h1, h2, h3, h4, h5 {
   right: 38px;
 }
 
-@media (max-width: 992px) {
-  .header .title {
-    font-size: 3rem;
-  }
-
-  .header-img {
-    bottom: 0px;
-    width: 200px;
-  }
-}
-
-@media (max-width: 768px) {
-  .header .title {
-    font-size: 2rem;
-  }
-
-  .navbar {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
 @media (max-width: 576px) {
   .header-img {
     display: none;
@@ -144,6 +122,21 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 200px;
 }
 
+@media (max-width: 768px) {
+  .section {
+    height: 100%;
+  }
+
+  .section .content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .gradient {
+    margin-bottom: 100px;
+  }
+}
+
 .section .title {
   font-size: 3rem;
 }
@@ -167,7 +160,7 @@ h1, h2, h3, h4, h5 {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .section .subtitle, .subtitle.right {
     width: 100%;
   }
@@ -234,8 +227,20 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+@media (max-width: 992px) {
+  #left-img-bottom {
+    width: 300px;
+    top: 0px;
+  }
 
-@media (max-width: 576px) {
+  #left-img-top {
+    width: 250px;
+    bottom: 60px;
+  }
+}
+
+
+@media (max-width: 768px) {
   #school-img, #bball-img, #left-img-bottom , #left-img-top   {
     display: none;
   }
@@ -247,6 +252,14 @@ h1, h2, h3, h4, h5 {
   /*text-align: justify;*/
   font-size: 2.3rem;
 }
+
+@media (max-width: 768px) {
+  .testimonial-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
+
 
 .testimonial-author {
   float: right;
@@ -291,6 +304,32 @@ h1, h2, h3, h4, h5 {
   width: 250px;
   bottom: -100px;
   right: 38px;
+}
+
+@media (max-width: 992px) {
+  .header .title, .bottom .title, .section .title{
+    font-size: 2.8rem;
+  }
+
+  .header-img {
+    bottom: 0px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .title, .bottom .title, .section .title {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header-img {
+    display: none;
+  }
 }
 
 .logo {
