@@ -69,6 +69,36 @@ h1, h2, h3, h4, h5 {
   right: 38px;
 }
 
+@media (max-width: 992px) {
+  .header .title {
+    font-size: 3rem;
+  }
+
+  .header-img {
+    bottom: 0px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .title {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-img {
+    display: none;
+  }
+}
+
+
+
 .btn.btn-primary, .btn.btn-primary:focus {
   font-family: Acumin, sans-serif;
   padding: 7px 30px;
@@ -125,6 +155,24 @@ h1, h2, h3, h4, h5 {
   width: 90%;
 }
 
+.special-section {
+  background-color: #040417;
+  color: white;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+.subtitle.right {
+  width: 90%;
+}
+
+
+@media (max-width: 576px) {
+  .section .subtitle, .subtitle.right {
+    width: 100%;
+  }
+}
+
 /* Paid Acqutisition */
 #school-img {
   position: absolute;
@@ -164,19 +212,39 @@ h1, h2, h3, h4, h5 {
 
 }
 
-.special-section {
-  background-color: #040417;
-  color: white;
-  padding-top: 100px;
-  margin-top: 100px;
+@media (max-width: 1200px) {
+  #school-img {
+    width: 300px;
+    top: -50px;
+  }
+
+  #bball-img {
+    width: 200px;
+    bottom: 60px;
+  }
+
+  #left-img-bottom {
+    width: 350px;
+    top: -30px;
+  }
+
+  #left-img-top {
+    width: 250px;
+    bottom: 0px;
+  }
 }
 
-.subtitle.right {
-  width: 90%;
+
+@media (max-width: 576px) {
+  #school-img, #bball-img, #left-img-bottom , #left-img-top   {
+    display: none;
+  }
 }
+
+
 
 .testimonial-title {
-  text-align: justify;
+  /*text-align: justify;*/
   font-size: 2.3rem;
 }
 
