@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Acumin';
-  src: url("../fonts//AcuminVariableConcept.otf");
+  src: url("../fonts/AcuminVariableConcept.otf");
   font-style: normal;
   font-weight: normal;
 }
@@ -18,6 +18,10 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-weight: bold;
+}
+
+p, h1, h2, h3, h4, h5, button, a {
+  word-spacing: 0.25em !important;
 }
 
 .navbar {
