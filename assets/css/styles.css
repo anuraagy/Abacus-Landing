@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p, h1, h2, h3, h4, h5, button, a {
-  word-spacing: 0.25em !important;
+  /*word-spacing: 0.25em !important;*/
 }
 
 .navbar {
